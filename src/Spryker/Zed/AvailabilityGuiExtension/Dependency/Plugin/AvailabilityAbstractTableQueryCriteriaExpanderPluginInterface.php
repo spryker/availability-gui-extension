@@ -10,9 +10,9 @@ namespace Spryker\Zed\AvailabilityGuiExtension\Dependency\Plugin;
 use Generated\Shared\Transfer\QueryCriteriaTransfer;
 
 /**
- * Allows to expand query criteria for products availabilities.
+ * Allows to expand query criteria for expanding default query running in AvailabilityAbstractTable.
  */
-interface AvailabilityAbstractQueryCriteriaExpanderPluginInterface
+interface AvailabilityAbstractTableQueryCriteriaExpanderPluginInterface
 {
     /**
      * Specification:

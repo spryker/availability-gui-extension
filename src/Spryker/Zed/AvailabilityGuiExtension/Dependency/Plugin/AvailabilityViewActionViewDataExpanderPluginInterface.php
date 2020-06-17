@@ -8,9 +8,9 @@
 namespace Spryker\Zed\AvailabilityGuiExtension\Dependency\Plugin;
 
 /**
- * Allows to expand view data for product availability.
+ * Allows to expand view data for product availability at AvailabilityGui/IndexController::viewAction().
  */
-interface AvailabilityViewDataExpanderPluginInterface
+interface AvailabilityViewActionViewDataExpanderPluginInterface
 {
     /**
      * Specification:
